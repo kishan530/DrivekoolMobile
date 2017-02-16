@@ -1,0 +1,10 @@
+﻿var BookIt = BookIt || {};
+//var baseUrl = "http://localhost:88/Dhoom/web/app_dev.php";
+var baseUrl = "http://test.drivekool.com";
+BookIt.Settings = BookIt.Settings || {};
+BookIt.Settings.signUpUrl = baseUrl+"/api/user-register";
+BookIt.Settings.signInUrl = baseUrl+"/api/user-login"; 
+BookIt.Settings.shareLinkUrl = baseUrl+"/api/share-a-link";
+BookIt.Settings.customerDocumentsUrl = baseUrl+"/api/customer-documents";
+BookIt.Settings.employeeCustomersUrl = baseUrl+"/api/employee-customers";
+BookIt.Settings.uploadDocumentsUrl = baseUrl+"/api/upload-documents";
